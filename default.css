@@ -258,17 +258,16 @@ body.dark {
 }
 
 .post-preview {
-    background-color: #fff;
+    background-color: var(--previewBg);
     padding: 15px;
 }
 
 .post-title {
-    color: black;
     margin: 0;
 }
 
 .post-intro {
-    color: #4b5156;
+    color: var(--secondaryText);
     font-size: 14px;
 }
 
