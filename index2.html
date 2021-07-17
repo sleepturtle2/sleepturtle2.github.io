@@ -1,0 +1,111 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #profile-pic {
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+        }
+        
+        .main-container {
+            background-color: aquamarine;
+        }
+        
+        .greeting-wrapper {
+            background-color: bisque;
+            text-align: center;
+        }
+        
+        .intro-wrapper {
+            background-color: blueviolet;
+        }
+        
+        .nav-wrapper {
+            background-color: brown;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+        
+        .theme-button {
+            background-color: blue;
+        }
+        
+        .navigation {
+            background-color: blueviolet;
+            display: flex;
+            justify-content: flex-end;
+        }
+        
+        .nav {
+            margin: 5px;
+            padding: 2px;
+        }
+        
+        .left-column {
+            background-color: cornflowerblue;
+        }
+        
+        .right-column {
+            background-color: cyan;
+        }
+        
+        .section-wrapper {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+        
+        @media screen and (max-width:800px) {
+            .section-wrapper {
+                grid-template-columns: 1fr;
+            }
+            .nav-wrapper {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="greeting-wrapper">
+            <h1>Hi, I'm Sayantan</h1>
+        </div>
+        <div class="intro-wrapper" style="margin: 15px auto;">
+            <div class="nav-wrapper">
+                <div class="theme-button">
+                    <input type="checkbox" class="checkbox" id="chk" />
+                    <label class="label" for="chk">
+                          <i class="fas fa-moon"></i>
+                          <i class="fas fa-sun"></i>
+                          <div class="ball"></div>
+                        </label>
+                </div>
+
+                <div class="navigation">
+                    <div class="nav"><a target="_blank" href="Resume.pdf">Resume</a></div>
+                    <div class="nav"><a href="#contact-form">Contact</a></div>
+                </div>
+            </div>
+        </div>
+        <div class="section-wrapper">
+            <div class="left-column">
+                <img id="profile-pic" src="images/profile-pic.jpg">
+
+            </div>
+            <div class="right-column">
+                <div id="preview">
+                    <h3>What I Do</h3>
+                    <p>Learning web dev and problem in DSA!</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
