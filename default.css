@@ -320,6 +320,18 @@ body.dark {
     border: none;
 }
 
+.footer {
+    min-height: 3em;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 1em;
+}
+
+.footer>a {
+    text-decoration: underline;
+}
+
 @media screen and (max-width: 1200px) {
     .main-container {
         width: 95%;
@@ -346,5 +358,8 @@ body.dark {
     }
     .left-column h3 {
         font-size: 30px;
+    }
+    .footer {
+        height: 1em;
     }
 }
