@@ -1,6 +1,6 @@
 :root {
     --mainColor: #DDDAD9;
-    --secondaryColor: #FDF5F3;
+    --secondaryColor: #fff;
     --borderColor: #c1c1c1;
     --mainText: black;
     --secondaryText: #4b5156;
@@ -235,12 +235,6 @@ body.dark {
     padding: 3em
 }
 
-.social-link {
-    padding: 1em;
-    margin: 1em;
-    border: 1px solid var(--borderColor);
-}
-
 .post-wrapper {
     display: grid;
     grid-template-columns: repeat(auto-fit, 320px);
@@ -276,6 +270,16 @@ body.dark {
 .post-intro {
     color: #4b5156;
     font-size: 14px;
+}
+
+.social-img {
+    display: block;
+    margin: 0 auto;
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    border: 2px solid var(--borderColor);
+    cursor: pointer;
 }
 
 #contact-form {
