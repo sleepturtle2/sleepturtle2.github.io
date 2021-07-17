@@ -6,6 +6,7 @@
     --secondaryText: #4b5156;
     --previewBg: rgb(251, 249, 243, 0.8);
     --buttonColor: black;
+    --headingColor: rgb(251, 249, 243, 0.8);
 }
 
 html,
@@ -84,7 +85,7 @@ h6 {
 
 .main-container {
     width: 1200;
-    margin: 0 auto;
+    margin: 15px auto;
 }
 
 .greeting-wrapper {
@@ -96,8 +97,8 @@ h6 {
 
 .intro-wrapper {
     background-color: var(--secondaryColor);
+    border-radius: 10px 10px 0 0;
     border: 1px solid var(--borderColor);
-    border-radius: 5px 5px 0 0;
     -webkit-box-shadow: -1px 1px 3px -1px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: -1px 1px 3px -1px rgba(0, 0, 0, 0.75);
     box-shadow: -1px 1px 3px -1px rgba(0, 0, 0, 0.75);
@@ -112,7 +113,7 @@ h6 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: var(--mainColor);
+    background-color: var(--headingColor);
 }
 
 #navigation {
@@ -219,7 +220,7 @@ body.dark {
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 3em;
-    border: 1px solid lightcoral;
+    border: 1px solid var(--borderColor);
     background-color: var(--previewBg);
 }
 
@@ -237,7 +238,7 @@ body.dark {
 .social-link {
     padding: 1em;
     margin: 1em;
-    border: 1px solid lightcoral;
+    border: 1px solid var(--borderColor);
 }
 
 .post-wrapper {
