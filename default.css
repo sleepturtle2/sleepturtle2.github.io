@@ -1,12 +1,12 @@
 :root {
-    --mainColor: #eaeaea;
-    --secondaryColor: #fff;
+    --mainColor: #DDDAD9;
+    --secondaryColor: #FDF5F3;
     --borderColor: #c1c1c1;
     --mainText: black;
     --secondaryText: #4b5156;
     --previewBg: rgb(251, 249, 243, 0.8);
     --buttonColor: black;
-    --headingColor: rgb(251, 249, 243, 0.8);
+    --headingColor: #E8DFDD;
 }
 
 html,
