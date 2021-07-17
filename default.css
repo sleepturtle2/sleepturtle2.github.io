@@ -232,7 +232,7 @@ body.dark {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 1em;
-    padding: 3em
+    padding: 3em;
 }
 
 .post-wrapper {
@@ -336,5 +336,9 @@ body.dark {
     }
     .social-link-wrapper {
         grid-template-columns: 1fr 1fr 1fr;
+        padding: 0.8em;
+    }
+    .about-wrapper h4 {
+        text-align: center;
     }
 }

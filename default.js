@@ -9,7 +9,7 @@ chk.addEventListener('change', () => {
 
     if (chk.checked) { //dark theme
         document.getElementById('theme-style').href = "dark-theme.css";
-        github.src = "images/github-logo-dark.png";
+        github.src = "simages/github-logo-dark.png";
         leetcode.src = "images/leetcode-logo-dark.png";
         linkedin.src = "images/linkedin-logo-dark.png";
     } else { //change back to light theme
