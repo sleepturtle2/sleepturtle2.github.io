@@ -341,4 +341,10 @@ body.dark {
     .about-wrapper h4 {
         text-align: center;
     }
+    .greeting-wrapper h1 {
+        font-size: 40px;
+    }
+    .left-column h3 {
+        font-size: 30px;
+    }
 }
