@@ -326,6 +326,7 @@ body.dark {
     justify-content: flex-end;
     align-items: center;
     margin-right: 1em;
+    font-size: 0.8em;
 }
 
 .footer>a {
